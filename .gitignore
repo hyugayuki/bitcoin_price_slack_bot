@@ -11,6 +11,8 @@ build/
 # Ignore all logfiles and tempfiles.
 /myenv/*
 !/myenv/slack_bot/*
+/myenv/slack_bot/__pycache__/*
+/myenv/slack_bot/slackbot_settings.py
 /myenv/slack_bot/plugins/*
 !/myenv/slack_bot/plugins/my_bot.py
 
